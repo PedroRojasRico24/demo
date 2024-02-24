@@ -1,0 +1,22 @@
+C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js:48
+	var globsStr = global.g_testFactory_.ParseJSFileAndGetAllGlobals(""+contents, true, absPath);
+	                                     ^
+
+Error: Error reading JObject from JsonReader. Path '', line 0, position 0.
+    at Dispatch.<anonymous> (<anonymous>)
+    at ResolvePostfixCache (C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js:48:39)
+    at global.SeSIncludeFile (C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js:98:18)
+    at Object.Include (C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js:161:43)
+    at Proxy.<anonymous> (C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js:177:44)
+    at C:\Program Files (x86)\Inflectra\Rapise\Engine\Player.js:102:15
+    at Script.runInThisContext (node:vm:123:12)
+    at global.SeSIncludeFile (C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js:117:10)
+    at Object.<anonymous> (C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js:444:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) {
+  errno: -2147352567,
+  code: -2146233088,
+  source: 'Newtonsoft.Json',
+  description: "Error reading JObject from JsonReader. Path '', line 0, position 0."
+}
+
+Node.js v18.18.0
